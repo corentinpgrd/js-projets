@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Italianno&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2ea9a7;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url(/javascript/cours/projet2/istockphoto-1324377846-612x612.jpg)no-repeat top /contain;
+}
+h1{
+    text-align: center;
+    font-family: 'Italianno', cursive ;
+    
+}
+h2{
+    font-size: 1.3rem;
+}
+.choix{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Italianno', cursive ;
+}
+#joueur-choix, #ordi-choix{
+    color: #414141;
+}
+.boutons{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10%;
+    padding-top:10%;
+    
+}
+.btn{
+    background-color:  #00000000;
+    height: 100%;
+    width: 100%; 
+    font-family : "Lato", sans-sérif;
+    font-size: 1.5rem;
+    
+}
+.b1{
+    background: url(rocheux.png)no-repeat center /contain;
+    width: 20%;
+    
+    
+}
+.b2{
+    background: url(feuille.png)no-repeat center /contain;
+    width: 20%;
+}
+.b3{
+    background: url(ciseaux.png) no-repeat center /contain;
+    width: 20%;
+    
+}

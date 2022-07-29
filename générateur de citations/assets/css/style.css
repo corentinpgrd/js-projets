@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Italianno&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family : "Lato", sans-sérif;
+    background: url("/javascript/cours/projet1/assets/img/projet-1.jpg")  no-repeat center /cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 45%;
+}
+
+.header{
+    font-size: 1.3rem;
+    border: 2px solid #efc700;
+    background-color: #d3942090;
+    color: #401111;
+    padding: 5px;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.content{
+    width: 100%;
+    background-color: #ffffff99;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+}
+
+.text-area{
+    font-size: 2.3rem;
+    line-height: 1.3;
+    font-family: 'Italianno', cursive ;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.auteur{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: #9b4c32;
+}
+
+button{
+    background-color: #d39420;
+    color: #401111;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+button:active{
+    background-color: #401111;
+    color: #d39420;
+    cursor: pointer;
+}
